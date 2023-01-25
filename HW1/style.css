@@ -1,0 +1,106 @@
+
+.container {
+  width: 450px;
+  height: 870px;
+  background-color: whitesmoke;
+}
+
+.wrapper {
+  /* display: flex; */
+  /* margin: 30px; */
+  text-align: center;
+}
+
+.heading {
+  color:royalblue;
+  text-align: left;
+  margin: 0px;
+}
+
+#customize {
+  font-size: 12px;
+  /* margin-bottom: 2px; */
+}
+
+.heading-wrapper {
+  /* TODO */
+  margin-left: 30px;
+  text-align: left;
+  margin-bottom: 5px;
+} 
+
+#week {
+  width: 350px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.text-color {
+  /* color:cornflowerblue;  */
+  color:purple;
+}
+
+.profile-widget {
+  width: 80px;
+  height: 80px;
+}
+
+.profile-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.profile-widget-wrapper {
+  /* margin: 0px;
+  width: 80px;
+  height: 80px;
+  display: flex; */
+  max-width: 100px;
+  max-height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* flex-direction:row; */
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  padding: 3px;
+}
+
+#graph {
+  width: 400px;
+  height: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body {
+  /* max-width: 800px; */
+  margin: 0 auto;
+}
+  
+h1 {
+  font-size: 2em;
+  display: block;
+  padding: 15px;
+  margin: 0px;
+}
+  
+h2 {
+  /* font-size: 1.3em; */
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+}
+  
+p,ul,ol,dl,address {
+  font-size: 1.1em;
+}
+  
+p, li, dd, dt, address {
+  line-height: 1.5;
+}
